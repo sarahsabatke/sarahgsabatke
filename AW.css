@@ -1,0 +1,247 @@
+
+header {
+	height: 80px;
+	background: white;
+	width: 300px;
+	z-index: 10;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #FD8F78;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+
+
+
+
+/* The navigation bar */
+/* .navbar {
+    overflow: hidden;
+    background-color: #black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+
+<body>
+<h1> Automated Writing </h1>
+img {
+  border: none;
+  width: 50%;
+}
+
+
+html { background-color: white; }
+body { margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 80px;
+margin-left: 80px;
+
+	background-color: #C0C0C0; }
+
+div {border-color: white;}
+
+
+li a:hover {
+    background-color: #FF9078;
+	} */
+
+
+h1 {
+  font-family: Arial, Georgia, serif;
+  font-size: 32px;
+}
+
+p {
+  font-family: Arial, Georgia, sans-serif;
+  font-size: 14 px;
+}
+
+/*p2 {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: 14 px;
+	color: white;
+}*/
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	  font-family: Arial, Georgia, serif;
+		font-size: 10px;
+		font-style: italic;
+}
+
+.container1 {
+	width:100%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+
+.image1 {
+	width: 100%;
+	display: none;
+}
+
+.fontcolor {
+	color: black;
+	font-family: Arial, Georgia, serif;
+  font-size: 14 px;
+}
+
+
+h2 {
+	margin-top: 0;
+}
+
+
+#container {
+  width: 95%;
+  margin: 0 auto;
+	max-width: 1200px;
+}
+
+
+.caption {
+  font-family: Arial, Georgia, serif;
+  font-style: italic;
+  text-align: left;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.image_box {
+	width: 400px;
+	float:right;
+	padding-left: 10px;
+}
+
+
+ol {
+	font-family: Arial, Georgia, serif;
+}
+
+ul {
+		font-family:  Arial, Georgia, serif;
+		color: black;
+	}
+}
+
+nav {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav ul li {
+	display: flex;
+	/* flex-flow: column; */
+	color: #2C0303;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+    padding: 15px 15px 15px 15px;
+		width: 80%;
+	}
+
+nav ul a:link {
+	text-decoration: none;
+	color:#FFFFFF;
+}
+
+	nav ul a:hover, nav ul a:active {
+  background-color: #FF9078;
+  text-decoration: none;
+}
+
+
+nav ul a:visited {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+    background-color: #65a8a6;
+    margin: 0;
+    padding: 0 10px;
+}
+
+#gameArea{
+ width:800px;
+ margin:auto;
+ margin-top:50px;
+ font-size:13px;
+ padding:4px;
+ background-color:white;
+ min-height:300px;
+}
+ #wordBox{
+	 border:2px #69F solid;
+	  border-radius:3px;
+		 margin-left:10px;
+		 padding:10px;
+		 width:300px;
+		 }
+		 #inputBox{
+			 border:2px #69F solid;
+			  border-radius:3px;
+				 margin-left:10px;
+				  padding:10px;
+					width:300px;
+					float:left;
+				 }
+
+@media screen and (max-width:800px){
+	 #gameArea{
+		 width:96%;
+		 padding:2%;
+		 }
+		 }
+		  @media screen and (max-width:400px){
+				 #wordBox{
+					  width:200px;
+}
+ #inputBox{
+	 width:200px;
+	  }
+	}

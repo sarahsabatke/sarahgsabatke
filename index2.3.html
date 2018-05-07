@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>	LESSON 3 </title>
+  <script>
+  function goBack() {
+      window.history.back()
+  }
+  </script>
+</head>
+
+<body vlink="#ebecec">
+      <button onclick="goBack()">Go Back</button>
+  <div id="container">
+    <div id="banner"><a href="index1.html"><img src="newbanner.png"
+    width=1100px; height=200px;  alt="banner"
+    margin-left: 0px; margin-right: 0px; margin-top: 100px;
+    /></a>
+
+
+  <div id="header">
+
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.google.com/specimen/Lato" rel="automatedwriting" />
+    <link rel="stylesheet" type="text/css" href="AW.css" />
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="menu.js" type="text/javascript"></script>
+
+
+    <div class="topnav">
+      <!-- <a class="active" href="#home">Home</a> -->
+      <a href="index1.html">Introduction</a>
+      <a href="index2.html">Lessons</a>
+      <a href="index3.html">In The News</a>
+      <a href="index4.html">Toolkit</a>
+    </div>
+
+
+  <!-- <nav>
+    <a href="#" class="menu-trigger"> &#9776;</a>
+
+    <ul>
+      <li><a href="index1.html">Introduction</a></li>
+          <li><a href="index2.html">Lessons</a></li>
+      <li><a href="index3.html">In the News</a></li>
+      <li><a href="index4.html">Toolkit</a></li>
+    </ul>
+</nav>
+
+</div> -->
+<!-- <div class="navbar"> -->
+  <!-- <a href="#index1.html">Introduction</a>
+  <a href="#index2.html">Lessons</a>
+  <a href="#index3.html">In The News</a>
+  <a href="#index5.html">Toolkit</a>
+</div>
+
+<div class="main"> -->
+
+
+
+    <h1>Lesson 3: Building a More Complex Story </h1>
+
+<ul>
+  <p>The steps you learned in Lesson 1 and 2 will create a simple yet successful story. Lesson 3 will provide you with more advanced skills in order to create a more sophisticated or complex template. In order to visualize this lesson more clearly, follow along with the video on a clean sheet of paper. From there, you can put the steps into your own words, creating a more viable reference sheet for you in the future! Printable reference sheets are available for all the lessons under the Toolkit tab.</p>
+
+
+<li> <strong> Step 1: Incorporating various scripts into your template </strong> </li>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SRrH6lV18GY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<!-- <video width="620" height="640" controls>
+  <source src="Lesson3part1.mp4" type="video/mp4">
+</video> -->
+
+<p>Scripts, as we briefly mentioned before, live underneath the Compose heading in the left hand side of your template. If you don’t see the “Compose” heading, make sure you are still in the “Compose” tab at the far left of the screen that is used for navigation.
+ </p>
+
+<img src="MainTabLesson2.png" alt="Main compose Tab" style="width:500px;height:700px;" />
+
+<p> Scripts are smaller templates that you can insert into your main template; they will not display unless they meet the requirements you specify. Put differently, you can split up one large template into several smaller pieces, and these pieces are called scripts. Let’s break this down.</p>
+
+<p>We have our example from Lesson 2 handy, but if the city is particularly windy, we want to have a lede that addresses that. Therefore we will head over to the Compose heading and click + Add Script.
+</p>
+
+<img src="Screenshot24.png" alt="ComposeWindylede" style="width:1000px;height:400px;" />
+
+<p> "It was windy in Columbia today, with a wind speed of 50 miles per hour." </p>
+
+<p>From there, we will replace our variables with the corresponding label from the “Insert Variable” tab that we used earlier.</p>
+
+<p>At the top, we will give our script a recognizable name. For example, I will replace “NewScript” with “Windylede” at the top of the template. From there, I will begin typing in the template. Here, we are going to insert a sentence from a row, as we did on our first template, that has notable wind to report. </p>
+
+<img src="Screenshot25.png" alt="Windylede" style="width:1000px;height:400px;" />
+
+
+<p>It was windy in Columbia today, with a wind speed of 50 miles per hour.</p>
+
+
+<p>From there, we will replace our variables with the corresponding label from the “Insert Variable” tab that we used earlier.</p>
+
+<p>It was windy in [city] today, with a wind speed of [wind_speed] miles per hour.</p>
+
+<p>Now, we have created a new template that we will insert into our Main template. To do this, head back to your Main template. There will be a button with two overlapping pages that will provide the “Insert Script” function. You can add the “Windylede” by selecting it from the drop down.
+</p>
+
+<img src="Screenshot28InsertScript.png" alt="Insert Script" style="width:1000px;height:400px;" />
+
+<p>Remember that we only want this lede to display if it is windy in the city, so click Windylede as it is displayed in your template (it should automatically highlight itself once clicked) and click the Insert Conditional button to create a new conditional.
+</p>
+
+<img src="Screenshot29MainTemplate.png" alt="Main Template" style="width:1000px;height:400px;" />
+<p>Now, for this example, it is only notable to include the fact that it is windy unless the wind speed is above 15 mph. So, under Case 1 in Parameter A, you will type the variable that will be used to determine if it is necessary to include, which is wind_speed. </p>
+
+
+<img src="Screenshot30.png" alt="Insert A Conditional" style="width:1000px;height:400px;" />
+
+<p>Moving to the right to Condition, select Is Greater Than. Then, move to Parameter B and type 15. Right below where you just typed will display “Result” where you will want to type [[Windylede]] since that is what you want to display. </p>
+
+<img src="Screenshot31PreviewOutputRow.png" alt="Preview Output Row" style="width:1000px;height:400px;" />
+
+<p> This will allow for the script to only be displayed if the wind speed in your data set is above 15 mph. You have now learned another way to add variety to your stories.</p>
+
+<li> <strong> Step 2: Introduction to using functions </strong> </li>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_hDRgVjDVsI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<!-- <video width="620" height="640" controls>
+  <source src="Lesson 3 Part 2.mp4" type="video/mp4">
+</video> -->
+
+<p> Another way to incorporate variety into your stories is by using functions. We are going to use the example from the previous step to add some variety to our “Windylede” that we created. </p>
+
+<p>To access your Windylede, select the script from the left hand side of your screen underneath the title Compose.
+</p>
+
+<p>It should look like this:</p>
+
+<p>It was windy in [city] today, with a wind speed of [wind_speed] miles per hour.</p>
+
+<img src="Screenshot32and33.png" alt="Windylede Template" style="width:1000px;height:400px;" />
+
+<p>From here, we are going to add more adjectives to choose from besides “windy” in order to avoid being repetitive. </p>
+
+<p>First, highlight windy in the template. The select the fn button that will insert a function. From there you will hover over the Language button given to you in the drop down, and select ChooseAtRandom.</p>
+
+<img src="Screenshot34.png" alt="Function Builder" style="width:1000px;height:400px;" />
+
+<p>A box will open up and it will already have ChooseAtRandom filled into the 1. Function input. </p>
+
+<p>If you look at 2. Parameters, “windy” will already be filled into the first x (string) input. In the following two x (strong) lines, insert the other adjective you want to be included for selection.</p>
+
+<img src="Screenshot35Functions.png" alt="Functions" style="width:1000px;height:500px;" />
+
+ <p>I will put “blustery” in the first one and “breezy” in the line below it. Scroll down to the bottom of the box to click “Insert” and the new sentence will look like this. </p>
+
+<p>It was windy|blustery|breezy in city today, with a wind speed of wind_speed miles per hour.</p>
+
+<img src="Screenshot36Windylede.png" alt="Windylede" style="width:800px;height:400px;" />
+
+<img src="Screenshot39InputRow.png" alt="Input Row" style="width:800px;height:400px;" />
+
+
+<h3>Content copyright &copy; 2018 Associated Press.</h3>
+  </div>
+</body>
+
+</html>
